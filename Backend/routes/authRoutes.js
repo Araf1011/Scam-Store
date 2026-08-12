@@ -5,3 +5,5 @@ const { registerUser, loginUser, logoutUser } = require("../controllers/authCont
 routes.post("/register", registerUser);
 routes.post("/login", loginUser);
 routes.post("/logout", logoutUser);
+
+module.exports = routes;
